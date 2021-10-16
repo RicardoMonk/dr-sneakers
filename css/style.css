@@ -56,16 +56,27 @@ body .sec-one{
     flex-direction: column;
     justify-content:center;
     align-items:flex-end;
-    padding-right: 3rem;
+    padding-right: 4rem;
 }
 
 .boxtext p{
-    font-size: 2rem;
+    font-size: 2.5rem;
     color: white;
-
+    margin-top: 6rem;
+    margin-bottom: 1rem;
 }
 
-
+.boxtext a{
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    width: 15.5rem;
+    height: 3rem;
+    text-align: center;
+    border-radius: 15px;
+    padding-top: .7rem;
+}
 
 .sec-one .video{
     object-fit: cover;
