@@ -33,7 +33,7 @@ header nav{
 }
 
 header nav img{
-    width: 10rem;
+    width: 8rem;
     align-self: center;
     margin: 2rem auto;
 }
@@ -44,7 +44,25 @@ body .sec-one{
     margin-top: 14rem;
     border: red solid 1px;
     position: fixed;
-   
+    display: flex;
+    justify-content:end;
+    
+}
+
+.boxtext{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:flex-end;
+    padding-right: 3rem;
+}
+
+.boxtext p{
+    font-size: 2rem;
+    color: white;
+
 }
 
 .sec-one .video{
