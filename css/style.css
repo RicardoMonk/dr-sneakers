@@ -81,7 +81,7 @@ body .sec-one{
 .boxtext a:hover{
     color: black;
     background-color: white;
-    transition: .5s;
+    transition: .2s;
     cursor: pointer;
 }
 
