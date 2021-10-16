@@ -78,6 +78,13 @@ body .sec-one{
     padding-top: .7rem;
 }
 
+.boxtext a:hover{
+    color: black;
+    background-color: white;
+    transition: .5s;
+    cursor: pointer;
+}
+
 .sec-one .video{
     object-fit: cover;
     width: 100vw;
